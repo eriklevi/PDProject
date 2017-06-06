@@ -1,0 +1,93 @@
+html {
+  font-family: 'Arvo', serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header {
+  background-color: #2F3E9E;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 100px;
+}
+
+.headerTitle {
+  position: absolute;
+  left: 140px;
+  bottom: 10px;
+  top: 10px;
+  color: white;
+  font-size: 80px;
+}
+
+.headerLogo {
+  position: absolute;
+  filter: invert(100%);
+  left: 40px;
+  top: 10px;
+  bottom: 10px;
+  width: 90px;
+}
+
+.menuContainer {
+  color: #C4C9E8;
+  position: fixed;
+  left: 0px;
+  top: 100px;
+  bottom: 0px;
+  width: 140px;
+  background-color: #C4C9E8;
+  font-size: 20px;
+}
+
+
+
+.menuItem1{
+  background-color: #009587;
+  position: absolute;
+  border-radius: 10px;
+  top: 10px;
+  left: 20px;
+  right: 20px;
+  height: 35px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.menuItem2{
+  background-color: #009587;
+  position: absolute;
+  border-radius: 10px;
+  top: 55px;
+  left: 20px;
+  right: 20px;
+  height: 35px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.menuItem3{
+  background-color: #009587;
+  position: absolute;
+  border-radius: 10px;
+  top: 100px;
+  left: 20px;
+  right: 20px;
+  height: 35px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
