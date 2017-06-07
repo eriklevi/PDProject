@@ -15,12 +15,12 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .header {
-  background-color: #2F3E9E;
+  background-color: #a9a9a9;
   position: fixed;
   top: 0px;
   right: 0px;
   left: 0px;
-  height: 100px;
+  height: 60px;
 }
 
 .headerTitle {
@@ -28,8 +28,8 @@ a:link, a:visited, a:hover, a:active {
   left: 140px;
   bottom: 10px;
   top: 10px;
-  color: white;
-  font-size: 80px;
+  color: #009587;
+  font-size: 40px;
 }
 
 .headerLogo {
@@ -42,13 +42,12 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .menuContainer {
-  color: #C4C9E8;
   position: fixed;
   left: 0px;
-  top: 100px;
+  top: 60px;
   bottom: 0px;
   width: 140px;
-  background-color: #C4C9E8;
+  background-color: #efefef;
   font-size: 15px;
 }
 
