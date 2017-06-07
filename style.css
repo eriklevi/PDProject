@@ -12,6 +12,7 @@ img {
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   color: white;
+
 }
 
 .header {
@@ -102,10 +103,11 @@ a:link, a:visited, a:hover, a:active {
 
 .page {
   position: absolute;
-  top: 100px;
+  top: 60px;
   left: 140px;
   bottom: 0px;
   right: 0px;
+  z-index: -1;
 }
 
 .loginForm {
@@ -115,7 +117,6 @@ a:link, a:visited, a:hover, a:active {
   top: 20%;
   bottom: 20%;
   padding: 20px;
-
 }
 
 input[type=text], input[type=password] {
@@ -137,6 +138,94 @@ button {
   width: 100%;
 }
 
-button:hover{
+button:hover {
   background-color: #00af9e;
+}
+
+.objectImage {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 300px;
+  height: 200px;
+}
+
+.objectTitle {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  width: 800px;
+  height: 40px;
+  font-size: 25px;
+  display: flex;
+  color: white;
+  background-color: #009587;
+  text-align: left;
+  align-items: center;
+  padding-left: 20px;
+  /* align vertical */
+}
+
+.objectDescription {
+  position: absolute;
+  top: 290px;
+  left: 100px;
+  min-height: 100px;
+  max-height: 300px;
+  width: 400px;
+  border-right: #009587 1px solid;
+  border-bottom: #009587 1px solid;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.bidZone {
+  position: absolute;
+  top: 290px;
+  left: 526px;
+  height: 233px;
+  width: 394px;
+}
+
+.highestOfferOuter, .highestOfferInner {
+  position: absolute;
+  font-size: 20px;
+  display: flex;
+  color: white;
+  background-color: #009587;
+  text-align: left;
+  align-items: center;
+}
+
+.highestOfferOuter {
+  padding: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+}
+
+.highestOfferInner {
+  padding-left: 20px;
+}
+
+.highestOfferDescription{
+  position: absolute;
+bottom: 0px;
+left: 0px;
+right: 0px;
+height: 30px;
+color: white;
+background-color: red;
+display: flex;
+justify-content: center;
+/* align horizontal */
+align-items: center;
+/* align vertical */
+opacity: 0.6;
+}
+.highestOfferDescription:hover{
+  opacity: 0.8;
 }
