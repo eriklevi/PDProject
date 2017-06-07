@@ -9,8 +9,9 @@ img {
   max-height: 100%;
 }
 
-a{
+a:link, a:visited, a:hover, a:active {
   text-decoration: none;
+  color: white;
 }
 
 .header {
@@ -48,12 +49,10 @@ a{
   bottom: 0px;
   width: 140px;
   background-color: #C4C9E8;
-  font-size: 20px;
+  font-size: 15px;
 }
 
-
-
-.menuItem1{
+.menuItem1 {
   background-color: #009587;
   position: absolute;
   border-radius: 10px;
@@ -62,11 +61,13 @@ a{
   right: 20px;
   height: 35px;
   display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
 }
 
-.menuItem2{
+.menuItem2 {
   background-color: #009587;
   position: absolute;
   border-radius: 10px;
@@ -75,11 +76,13 @@ a{
   right: 20px;
   height: 35px;
   display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
 }
 
-.menuItem3{
+.menuItem3 {
   background-color: #009587;
   position: absolute;
   border-radius: 10px;
@@ -88,6 +91,53 @@ a{
   right: 20px;
   height: 35px;
   display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
+}
+
+.menuItem1:hover, .menuItem2:hover, .menuItem3:hover {
+  background-color: #00af9e;
+}
+
+.page {
+  position: absolute;
+  top: 100px;
+  left: 140px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.loginForm {
+  position: absolute;
+  right: 30%;
+  left: 15%;
+  top: 20%;
+  bottom: 20%;
+  padding: 20px;
+
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #009587;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover{
+  background-color: #00af9e;
 }
